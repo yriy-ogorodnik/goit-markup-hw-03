@@ -179,6 +179,7 @@ address {
   letter-spacing: 0.06em;
 
   cursor: pointer;
+  border: transparent;
 
   color: var(--color-white);
   background-color: var(--accent-color);
@@ -256,8 +257,12 @@ address {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team-card-title {
+
+.team-card-content {
   margin-top: 30px;
+  margin-bottom: 30px;
+}
+.team-card-title {
   margin-bottom: 10px;
 
   font-weight: 500;
@@ -266,7 +271,6 @@ address {
   text-align: center;
 }
 .team-card-text {
-  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.18;
   color: var(--secondary-text-color);
@@ -288,10 +292,10 @@ address {
   color: var(--color-white);
 }
 
-.portfolio-item-link:hover,
+/* .portfolio-item-link:hover,
 .portfolio-item-link:focus {
   color: var(--accent-color);
-}
+} */
 
 .filter-button {
   font-family: inherit;
@@ -319,10 +323,12 @@ address {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
-  border: 1px solid #eeeeee;
 }
 .card-content {
   padding: 20px 24px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 .portfolio-title {
   margin-bottom: 4px;
